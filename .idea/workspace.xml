@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d8c473-adaa-4026-ae74-64ab7c5af2a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/server/AiTema1ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/AiTema1ServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/BFSV2Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/BFSV2Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/BacktrackingV1Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/BacktrackingV1Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/BacktrackingV2Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/BacktrackingV2Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/GreedyHillClimbingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/GreedyHillClimbingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/StochasticHillClimbingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/StochasticHillClimbingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="AiTema1ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -86,7 +83,7 @@
       <updated>1665829999782</updated>
       <workItem from="1665830000261" duration="18000" />
       <workItem from="1665830033009" duration="124000" />
-      <workItem from="1665830171691" duration="4948000" />
+      <workItem from="1665830171691" duration="8419000" />
     </task>
     <servers />
   </component>
