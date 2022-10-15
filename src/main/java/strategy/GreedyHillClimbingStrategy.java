@@ -1,12 +1,11 @@
 package strategy;
 
 import core.Move;
+import core.MoveType;
 import core.State;
 import heuristics.Heuristic;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 /**
  * Represents the HillClimbingStrategy
@@ -178,5 +177,34 @@ public class GreedyHillClimbingStrategy extends AbstractStrategy {
         else{
             System.out.println("The initial state from which we started doesn't have a solution");
         }
+    }
+
+    @Override
+    public List<Map<Move, State>> getSolution() {
+        List<Map<Move, State>> actions = new ArrayList<>();
+
+        System.out.println("\n\n" + strategyName + "\nStarted from: " + initialState);
+        Map<Move, State> initial = new HashMap<>();
+        initial.put(new Move(MoveType.EMPTY, 0 ), initialState);
+        actions.add(initial);
+
+        if (hasSolution) {
+            if (foundSolution) {
+
+                var state = initialState.copy();
+                for (var move : listMoves) {
+                    Map<Move, State> result = new HashMap<>();
+                    state = State.executeMove(state, move);
+                    result.put(move, state);
+                    actions.add(result);
+                }
+                System.out.println("Is this state final? " + state.isFinal());
+            } else {
+                System.out.println("BacktrackingV2 strategy was not able to find a solution after generating all states using " + nrIterations + " transitions/moves from the initial state");
+            }
+        } else {
+            System.out.println("The initial state from which we started doesn't have a solution");
+        }
+        return actions;
     }
 }

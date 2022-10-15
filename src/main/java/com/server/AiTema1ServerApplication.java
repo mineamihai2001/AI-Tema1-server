@@ -30,15 +30,16 @@ public class AiTema1ServerApplication {
     public List<Map<Move, State>> request(@RequestBody String body) throws JsonProcessingException {
         ArrayList<HashMap<String, String>> list = new ObjectMapper().readValue(body, new TypeReference<ArrayList<HashMap<String, String>>>() {
         });
-
         var nObj = list.get(0);
         var mObj = list.get(1);
         var kObj = list.get(2);
-        var strategy = list.get(3);
+        var iterationsObj = list.get(3);
+        var strategy = list.get(4);
 
         long n = Long.parseLong(nObj.get("value"));
         long m = Long.parseLong(mObj.get("value"));
         long k = Long.parseLong(kObj.get("value"));
+        int iterations = Integer.parseInt(iterationsObj.get("value"));
         String strategyType = strategy.get("value");
 
         int[] typeOperation = new int[]{0, 2, 1, 2, 0, 2};
@@ -49,16 +50,16 @@ public class AiTema1ServerApplication {
         List<Map<Move, State>> result = new ArrayList<>();
         switch (strategyType) {
             case "Backtracking":
-//                result = Main.executeBacktrackingV2Strategy(State.getInitialState(n, m, k));
+                result = Main.executeBacktrackingV2Strategy(State.getInitialState(n, m, k), iterations);
                 break;
             case "A*":
 //                Main.executeAStarStrategy(State.getInitialState(n, m, k), new Heuristic2());
                 break;
             case "BFS":
-                Main.executeBFSV2Strategy(State.getInitialState(n, m, k));
+                result = Main.executeBFSV2Strategy(State.getInitialState(n, m, k));
                 break;
             case "HillClimb":
-                Main.executeGreedyHillClimbingStrategy(State.getInitialState(n, m, k), new Heuristic1(), 5000, 5, 20);
+                result = Main.executeGreedyHillClimbingStrategy(State.getInitialState(n, m, k), new Heuristic1(), iterations, 5, 20);
                 break;
         }
         System.out.println(result);

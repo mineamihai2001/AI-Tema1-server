@@ -3,10 +3,7 @@ package strategy;
 import core.Move;
 import core.State;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Implements the Backtracking Strategy using a set for remembering visited states
@@ -109,5 +106,10 @@ public class BacktrackingV1Strategy extends AbstractStrategy {
         else{
             System.out.println("The initial state from which we started doesn't have a solution");
         }
+    }
+
+    @Override
+    public List<Map<Move, State>> getSolution() {
+        return null;
     }
 }
