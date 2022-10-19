@@ -100,7 +100,7 @@ public class BacktrackingV1Strategy extends AbstractStrategy {
                 }
                 System.out.println( "Is this state final? " + state.isFinal() );
             } else {
-                System.out.println( "BacktrackingV1 was not able to find a solution after visiting more than " + maxNrVisitedStates + " states " );
+                System.out.println( strategyName+" was not able to find a solution after visiting more than " + maxNrVisitedStates + " states " );
             }
         }
         else{

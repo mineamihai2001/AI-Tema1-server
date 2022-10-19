@@ -6,14 +6,39 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d8c473-adaa-4026-ae74-64ab7c5af2a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/AiTema1ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/AiTema1ServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/heuristics/DistanceHeuristic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heuristics/DistanceHeuristic1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/AStarV2Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/AStarV2Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/BFSV2Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/BFSV2Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/BacktrackingV1Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/BacktrackingV1Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/BacktrackingV2Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/BacktrackingV2Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/GreedyHillClimbingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/GreedyHillClimbingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/StochasticHillClimbingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/StochasticHillClimbingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/heuristics/DistanceHeuristic1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/heuristics/DistanceHeuristic1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/AStarV2Strategy$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/AStarV2Strategy$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/AStarV2Strategy$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/AStarV2Strategy$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/AStarV2Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/AStarV2Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/BFSV2Strategy$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/BFSV2Strategy$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/BFSV2Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/BFSV2Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/BacktrackingV1Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/BacktrackingV1Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/BacktrackingV2Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/BacktrackingV2Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/GreedyHillClimbingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/GreedyHillClimbingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/StochasticHillClimbingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/StochasticHillClimbingStrategy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,9 +76,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.server.Main" />
+      <module name="AI-Tema1-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AiTema1ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="AI-Tema1-server" />
       <extension name="coverage">
@@ -69,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Spring Boot.AiTema1ServerApplication" />
       </list>
     </recent_temporary>
@@ -84,6 +127,8 @@
       <workItem from="1665830000261" duration="18000" />
       <workItem from="1665830033009" duration="124000" />
       <workItem from="1665830171691" duration="8419000" />
+      <workItem from="1666163034361" duration="266000" />
+      <workItem from="1666173605808" duration="1711000" />
     </task>
     <servers />
   </component>
