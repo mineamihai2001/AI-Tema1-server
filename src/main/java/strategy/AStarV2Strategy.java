@@ -263,7 +263,7 @@ public class AStarV2Strategy extends AbstractStrategy{
                 }
                 System.out.println("Is this state final? " + state.isFinal());
             } else {
-                System.out.println("BacktrackingV2 strategy was not able to find a solution after generating all states");
+                System.out.println(strategyName+" strategy was not able to find a solution after generating all states");
             }
         } else {
             System.out.println("The initial state from which we started doesn't have a solution");

@@ -3,8 +3,7 @@ package com.server;
 import core.Move;
 import core.MoveType;
 import core.State;
-import heuristics.DistanceHeuristic1;
-import heuristics.Heuristic;
+import heuristics.*;
 import strategy.*;
 
 import java.util.ArrayList;
@@ -33,12 +32,22 @@ public class Main {
 //        executeBFSV2Strategy( State.getInitialState( 5,3,2 ) );
 //        executeBFSV2Strategy( State.getInitialState( 5,3,4 ) );
 
-//        executeHillClimbingStrategy( State.getInitialState( 5,3,4 ),new Heuristic1(),5000,5,20 );
 //        executeGreedyHillClimbingStrategy( State.getInitialState( 5,3,4 ),new Heuristic1(),1000,2,20 );
 //        executeGreedyHillClimbingStrategy( State.getInitialState( 5,3,4 ),new Heuristic2(),1000,2,20 );
 
-        executeStochasticHillClimbingStrategy(State.getInitialState(5, 3, 1), new DistanceHeuristic1(), 2, 20);
+//        executeStochasticHillClimbingStrategy(State.getInitialState(4, 3, 1), new Heuristic2() , 400, 20);
 
+//        executeBFSV2Strategy( State.getInitialState( 5,3,4 ) );
+//        executeAStarV2Strategy( State.getInitialState( 5,3,4 ),new DistanceHeuristic1(),50000 );
+//
+//        executeBFSV2Strategy( State.getInitialState( 5,3,1 ) );
+//        executeAStarV2Strategy( State.getInitialState( 5,3,1 ),new DistanceHeuristic1(),50000 );
+//
+//        executeBFSV2Strategy( State.getInitialState( 5,3,2 ) );
+//        executeAStarV2Strategy( State.getInitialState( 5,3,2 ),new DistanceHeuristic1(),50000 );
+//
+//        executeBFSV2Strategy( State.getInitialState( 6,2,3 ) );
+//        executeAStarV2Strategy( State.getInitialState( 6,2,3 ),new DistanceHeuristic1(),50000 );
     }
 
     public static void testStateHasSolution() {

@@ -6,14 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d8c473-adaa-4026-ae74-64ab7c5af2a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/AiTema1ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/AiTema1ServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/server/AiTema1ServerApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,9 +55,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.AiTema1ServerApplication">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.server.Main" />
+      <module name="AI-Tema1-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AiTema1ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="AI-Tema1-server" />
       <extension name="coverage">
@@ -70,6 +91,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AiTema1ServerApplication" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +106,9 @@
       <workItem from="1665830000261" duration="18000" />
       <workItem from="1665830033009" duration="124000" />
       <workItem from="1665830171691" duration="8419000" />
+      <workItem from="1666163034361" duration="266000" />
+      <workItem from="1666173605808" duration="2422000" />
+      <workItem from="1666176181120" duration="99000" />
     </task>
     <servers />
   </component>

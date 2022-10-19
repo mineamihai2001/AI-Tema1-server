@@ -12,7 +12,7 @@ public class DistanceHeuristic1 implements Heuristic {
     /**
      * Idea(we note target value as k and n,m as the max capacities):
      * If k is equal to the current capacities,then the distance is 0
-     * If k is equal to the max capacities,then the distance is 1(do the FILL operation)
+     * If a FILL,EMPTY or POUR operation gives a final state,return 1(One-Step Look Ahead)
      * Else,the distance should be at least 2
      * Thus,this heuristic should be admissible
      * @param state the current state
@@ -26,6 +26,17 @@ public class DistanceHeuristic1 implements Heuristic {
         }
 
         if(k==0||k==n||k==m){
+            return 1;
+        }
+
+        //to make sure that we don't divide by 0
+        if(n<=0||m<=0){
+            return 1;
+        }
+
+        //simulates the pour operation
+        long sum=c0+c1;
+        if(sum==k||sum%n==k||sum%m==k){
             return 1;
         }
 
