@@ -83,10 +83,18 @@ public class Main {
         return strategy.getSolution();
     }
 
-    public static void executeStochasticHillClimbingStrategy(State initialState, Heuristic heuristic, int nrIterations, int maxNrImprovements) {
+    public static List<Map<Move, State>> executeStochasticHillClimbingStrategy(State initialState, Heuristic heuristic, int nrIterations, int maxNrImprovements) {
         Strategy strategy = new StochasticHillClimbingStrategy(initialState, heuristic, nrIterations, maxNrImprovements);
         strategy.start();
         strategy.printSolution();
+        return strategy.getSolution();
+    }
+
+    public static List<Map<Move, State>> executeAStarV2Strategy(State initialState,Heuristic heuristic,int maxNrVisitedStates){
+        Strategy strategy=new AStarV2Strategy( initialState,heuristic,maxNrVisitedStates );
+        strategy.start();
+        strategy.printSolution();
+        return strategy.getSolution();
     }
 
     public static void test() {
